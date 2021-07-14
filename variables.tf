@@ -47,3 +47,8 @@ variable "create_policy" {
   type        = bool
   default     = false
 }
+
+variable "tags" {
+  description = "Tags for created resources"
+  type        = map(any)
+}
